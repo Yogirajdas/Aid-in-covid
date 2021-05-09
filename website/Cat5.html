@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>COViD Sample Collection Centers</title>
+  <h1 style="font-family:verdana;text-align:center;">Sample Collection Centers Locator</h1>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+<style>
+    #nearby-covid-places-mapmyindia {
+      height: 100%;
+      background-color: white;
+    }
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+  <script src="https://maps.mapmyindia.com/covid-places/showNearbyCovidPlacesOnMap.js?category=HSPSCC"></script>
+</head>
+<body>
+   <div id="nearby-covid-places-mapmyindia"></div>  
+   <script type="text/javascript">
+        loadNearbyCovidCentresMapmyIndiaDiv(document.getElementById("nearby-covid-places-mapmyindia"));
+    </script>
+</body>
+</html>
